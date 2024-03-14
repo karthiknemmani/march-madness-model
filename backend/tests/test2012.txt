@@ -1,0 +1,105 @@
+Successfully initialized database in 328 ms
+Successfully initialized model in 44 ms
+
+First Round
+Region 1
+('Syracuse', 0.7941)
+('Kansas St', 0.5528)
+('Harvard', 0.5302)
+('Wisconsin', 0.6593)
+('Florida St', 0.5514)
+('Cincinnati', 0.5672)
+('Gonzaga', 0.535)
+('Ohio St', 0.7129)
+
+Region 2
+('North Carolina', 0.6088)
+('Alabama', 0.6305)
+('California', 0.6296)
+('Ohio', 0.549)
+('Georgetown', 0.5005)
+('NC State', 0.5708)
+("St Mary's CA", 0.5184)
+('Kansas', 0.598)
+
+Region 3
+('Kentucky', 0.8895)
+('Connecticut', 0.5893)
+('Wichita St', 0.5551)
+('Indiana', 0.5889)
+('Baylor', 0.5599)
+('UNLV', 0.5939)
+('Notre Dame', 0.563)
+('Lehigh', 0.5861)
+
+Region 4
+('Michigan St', 0.7466)
+('St Louis', 0.5369)
+('New Mexico', 0.552)
+('Davidson', 0.5117)
+('BYU', 0.5091)
+('Murray St', 0.6648)
+('Florida', 0.501)
+('Missouri', 0.7708)
+
+Second Round
+Region 1
+('Syracuse', 0.7667)
+('Wisconsin', 0.6215)
+('Cincinnati', 0.5405)
+('Ohio St', 0.6722)
+
+Region 2
+('North Carolina', 0.5595)
+('California', 0.5397)
+('Georgetown', 0.5648)
+('Kansas', 0.5497)
+
+Region 3
+('Kentucky', 0.7378)
+('Wichita St', 0.5596)
+('Baylor', 0.6114)
+('Lehigh', 0.594)
+
+Region 4
+('St Louis', 0.5126)
+('New Mexico', 0.5132)
+('Murray St', 0.5401)
+('Missouri', 0.5931)
+
+Sweet 16
+Region 1
+('Syracuse', 0.6175)
+('Ohio St', 0.6136)
+
+Region 2
+('North Carolina', 0.5391)
+('Kansas', 0.521)
+
+Region 3
+('Kentucky', 0.6584)
+('Baylor', 0.5126)
+
+Region 4
+('St Louis', 0.5956)
+('Missouri', 0.6059)
+
+Elite 8
+Region 1
+('Syracuse', 0.5897)
+
+Region 2
+('North Carolina', 0.5459)
+
+Region 3
+('Kentucky', 0.6984)
+
+Region 4
+('Missouri', 0.5496)
+
+Final 4
+('Syracuse', 0.6511)
+('Kentucky', 0.6139)
+
+Championship
+('Kentucky', 0.5044)

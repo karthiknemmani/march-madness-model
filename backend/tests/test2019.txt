@@ -1,0 +1,105 @@
+Successfully initialized database in 346 ms
+Successfully initialized model in 51 ms
+
+First Round
+Region 1
+('Duke', 0.773)
+('VCU', 0.6176)
+('Liberty', 0.5694)
+('Virginia Tech', 0.7245)
+('LSU', 0.6038)
+('Belmont', 0.5105)
+('Louisville', 0.6275)
+('Michigan St', 0.659)
+
+Region 2
+('Gonzaga', 0.7874)
+('Syracuse', 0.5026)
+('Murray St', 0.6759)
+('Vermont', 0.5286)
+('Texas Tech', 0.692)
+('Buffalo', 0.7134)
+('Florida', 0.551)
+('Michigan', 0.6266)
+
+Region 3
+('North Carolina', 0.6602)
+('Washington', 0.5365)
+('Auburn', 0.5732)
+('Northeastern', 0.5298)
+('Houston', 0.6892)
+('Iowa St', 0.6818)
+('Wofford', 0.7085)
+('Kentucky', 0.5779)
+
+Region 4
+('Virginia', 0.8182)
+('Mississippi', 0.6186)
+('Oregon', 0.5883)
+('UC Irvine', 0.5326)
+('Purdue', 0.6636)
+("St Mary's CA", 0.6428)
+('Cincinnati', 0.6408)
+('Tennessee', 0.5851)
+
+Second Round
+Region 1
+('Duke', 0.6709)
+('Liberty', 0.5128)
+('LSU', 0.5505)
+('Michigan St', 0.566)
+
+Region 2
+('Gonzaga', 0.7734)
+('Murray St', 0.6141)
+('Texas Tech', 0.581)
+('Michigan', 0.5639)
+
+Region 3
+('North Carolina', 0.5134)
+('Auburn', 0.6616)
+('Houston', 0.5118)
+('Wofford', 0.5906)
+
+Region 4
+('Virginia', 0.7272)
+('Oregon', 0.5734)
+("St Mary's CA", 0.5102)
+('Tennessee', 0.5332)
+
+Sweet 16
+Region 1
+('Duke', 0.5592)
+('LSU', 0.5443)
+
+Region 2
+('Gonzaga', 0.6473)
+('Texas Tech', 0.5339)
+
+Region 3
+('Auburn', 0.5973)
+('Wofford', 0.5355)
+
+Region 4
+('Virginia', 0.6597)
+("St Mary's CA", 0.5241)
+
+Elite 8
+Region 1
+('Duke', 0.6203)
+
+Region 2
+('Gonzaga', 0.6445)
+
+Region 3
+('Wofford', 0.5081)
+
+Region 4
+('Virginia', 0.6205)
+
+Final 4
+('Gonzaga', 0.5958)
+('Virginia', 0.603)
+
+Championship
+('Gonzaga', 0.5484)

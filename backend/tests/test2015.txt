@@ -1,0 +1,105 @@
+Successfully initialized database in 340 ms
+Successfully initialized model in 42 ms
+
+First Round
+Region 1
+('Villanova', 0.638)
+('NC State', 0.5141)
+('Northern Iowa', 0.6758)
+('Louisville', 0.6427)
+('Oklahoma', 0.5979)
+('Boise St', 0.5441)
+('Michigan St', 0.6124)
+('Virginia', 0.752)
+
+Region 2
+('Duke', 0.6396)
+('San Diego St', 0.5958)
+('Utah', 0.5304)
+('E Washington', 0.5374)
+('Iowa St', 0.591)
+('SMU', 0.6179)
+('Iowa', 0.5017)
+('Gonzaga', 0.6982)
+
+Region 3
+('Kentucky', 0.8768)
+('Cincinnati', 0.6186)
+('West Virginia', 0.5087)
+('Valparaiso', 0.5909)
+('Notre Dame', 0.7116)
+('Texas', 0.5359)
+('Wichita St', 0.5872)
+('New Mexico St', 0.6156)
+
+Region 4
+('Wisconsin', 0.7093)
+('Oregon', 0.5315)
+('Arkansas', 0.5519)
+('North Carolina', 0.6019)
+('Georgia St', 0.5414)
+('BYU', 0.5255)
+('Ohio St', 0.7018)
+('Arizona', 0.7663)
+
+Second Round
+Region 1
+('Villanova', 0.6195)
+('Louisville', 0.5216)
+('Oklahoma', 0.5459)
+('Virginia', 0.7358)
+
+Region 2
+('Duke', 0.5493)
+('Utah', 0.6208)
+('SMU', 0.5544)
+('Gonzaga', 0.5561)
+
+Region 3
+('Kentucky', 0.7176)
+('Valparaiso', 0.5261)
+('Notre Dame', 0.5827)
+('Wichita St', 0.5443)
+
+Region 4
+('Wisconsin', 0.7239)
+('North Carolina', 0.5226)
+('Georgia St', 0.6389)
+('Ohio St', 0.5591)
+
+Sweet 16
+Region 1
+('Villanova', 0.5264)
+('Virginia', 0.6247)
+
+Region 2
+('Duke', 0.5247)
+('Gonzaga', 0.5609)
+
+Region 3
+('Kentucky', 0.7407)
+('Notre Dame', 0.5057)
+
+Region 4
+('Wisconsin', 0.6671)
+('Ohio St', 0.5845)
+
+Elite 8
+Region 1
+('Virginia', 0.5863)
+
+Region 2
+('Duke', 0.5255)
+
+Region 3
+('Kentucky', 0.653)
+
+Region 4
+('Wisconsin', 0.5573)
+
+Final 4
+('Virginia', 0.5695)
+('Kentucky', 0.5511)
+
+Championship
+('Kentucky', 0.5889)

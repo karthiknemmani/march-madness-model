@@ -1,0 +1,103 @@
+
+First Round
+Region 1
+('Villanova', 0.8986)
+('NC State', 0.5409)
+('Northern Iowa', 0.8159)
+('Louisville', 0.8259)
+('Oklahoma', 0.8294)
+('Providence', 0.5894)
+('Michigan St', 0.6858)
+('Virginia', 0.9248)
+
+Region 2
+('Duke', 0.8993)
+('San Diego St', 0.6215)
+('Utah', 0.7059)
+('Georgetown', 0.6941)
+('Iowa St', 0.8253)
+('SMU', 0.7348)
+('Iowa', 0.5817)
+('Gonzaga', 0.9037)
+
+Region 3
+('Kentucky', 0.9728)
+('Cincinnati', 0.6437)
+('West Virginia', 0.6876)
+('Maryland', 0.6461)
+('Notre Dame', 0.8897)
+('Butler', 0.5974)
+('Wichita St', 0.6627)
+('Kansas', 0.7169)
+
+Region 4
+('Wisconsin', 0.9247)
+('Oregon', 0.5582)
+('Arkansas', 0.7236)
+('North Carolina', 0.7995)
+('Baylor', 0.7348)
+('Xavier', 0.6074)
+('Ohio St', 0.6301)
+('Arizona', 0.9301)
+
+Second Round
+Region 1
+('Villanova', 0.7758)
+('Louisville', 0.5484)
+('Oklahoma', 0.6642)
+('Virginia', 0.8268)
+
+Region 2
+('Duke', 0.7215)
+('Utah', 0.6302)
+('Iowa St', 0.5261)
+('Gonzaga', 0.6822)
+
+Region 3
+('Kentucky', 0.8437)
+('West Virginia', 0.5382)
+('Notre Dame', 0.6898)
+('Wichita St', 0.527)
+
+Region 4
+('Wisconsin', 0.8479)
+('North Carolina', 0.5494)
+('Baylor', 0.6963)
+('Arizona', 0.6512)
+
+Sweet 16
+Region 1
+('Villanova', 0.6056)
+('Virginia', 0.6496)
+
+Region 2
+('Duke', 0.6294)
+('Gonzaga', 0.6385)
+
+Region 3
+('Kentucky', 0.8296)
+('Notre Dame', 0.6115)
+
+Region 4
+('Wisconsin', 0.7346)
+('Arizona', 0.5923)
+
+Elite 8
+Region 1
+('Virginia', 0.5599)
+
+Region 2
+('Duke', 0.5523)
+
+Region 3
+('Kentucky', 0.7)
+
+Region 4
+('Wisconsin', 0.6405)
+
+Final 4
+('Virginia', 0.5429)
+('Kentucky', 0.5511)
+
+Championship
+('Kentucky', 0.6147)

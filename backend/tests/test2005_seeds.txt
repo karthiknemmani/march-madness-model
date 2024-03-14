@@ -1,0 +1,103 @@
+
+First Round
+Region 1
+('Washington', 0.9506)
+('Pittsburgh', 0.5009)
+('Georgia Tech', 0.5998)
+('Louisville', 0.8132)
+('Gonzaga', 0.7912)
+('Texas Tech', 0.7662)
+('West Virginia', 0.662)
+('Wake Forest', 0.8618)
+
+Region 2
+('Illinois', 0.9368)
+('Texas', 0.5623)
+('Alabama', 0.6184)
+('Boston College', 0.7989)
+('Arizona', 0.7537)
+('LSU', 0.5463)
+('S Illinois', 0.7472)
+('Oklahoma St', 0.861)
+
+Region 3
+('Duke', 0.9086)
+('Mississippi St', 0.537)
+('Michigan St', 0.7625)
+('Syracuse', 0.7912)
+('Oklahoma', 0.8857)
+('Utah', 0.6495)
+('Cincinnati', 0.6587)
+('Kentucky', 0.9063)
+
+Region 4
+('North Carolina', 0.9429)
+('Minnesota', 0.5527)
+('Villanova', 0.8182)
+('Florida', 0.8325)
+('Kansas', 0.8058)
+('Wisconsin', 0.6638)
+('NC State', 0.505)
+('Connecticut', 0.8793)
+
+Second Round
+Region 1
+('Washington', 0.7748)
+('Louisville', 0.6663)
+('Gonzaga', 0.5447)
+('Wake Forest', 0.5304)
+
+Region 2
+('Illinois', 0.8218)
+('Boston College', 0.5273)
+('Arizona', 0.7744)
+('Oklahoma St', 0.6464)
+
+Region 3
+('Duke', 0.8153)
+('Syracuse', 0.5274)
+('Oklahoma', 0.6682)
+('Kentucky', 0.7311)
+
+Region 4
+('North Carolina', 0.7392)
+('Villanova', 0.5875)
+('Kansas', 0.5732)
+('Connecticut', 0.7298)
+
+Sweet 16
+Region 1
+('Washington', 0.563)
+('Wake Forest', 0.5031)
+
+Region 2
+('Illinois', 0.753)
+('Arizona', 0.5036)
+
+Region 3
+('Duke', 0.5769)
+('Oklahoma', 0.5223)
+
+Region 4
+('North Carolina', 0.5089)
+('Connecticut', 0.6252)
+
+Elite 8
+Region 1
+('Washington', 0.6776)
+
+Region 2
+('Illinois', 0.6063)
+
+Region 3
+('Duke', 0.5187)
+
+Region 4
+('North Carolina', 0.5657)
+
+Final 4
+('Illinois', 0.5769)
+('Duke', 0.5248)
+
+Championship
+('Illinois', 0.5611)

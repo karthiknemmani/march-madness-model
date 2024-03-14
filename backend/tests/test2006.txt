@@ -1,0 +1,105 @@
+Successfully initialized database in 335 ms
+Successfully initialized model in 54 ms
+
+First Round
+Region 1
+('Duke', 0.6948)
+('G Washington', 0.5389)
+('Syracuse', 0.5423)
+('LSU', 0.5564)
+('Iowa', 0.54)
+('West Virginia', 0.6342)
+('NC State', 0.5926)
+('Texas', 0.7161)
+
+Region 2
+('Memphis', 0.6525)
+('Arkansas', 0.5524)
+('Kent', 0.508)
+('Kansas', 0.5301)
+('Xavier', 0.5583)
+('San Diego St', 0.5537)
+('Alabama', 0.5328)
+('UCLA', 0.5952)
+
+Region 3
+('Villanova', 0.7217)
+('Arizona', 0.6005)
+('Nevada', 0.5998)
+('Pacific', 0.561)
+('Florida', 0.6074)
+('Oklahoma', 0.5324)
+('Georgetown', 0.6199)
+('Ohio St', 0.628)
+
+Region 4
+('Connecticut', 0.766)
+('Kentucky', 0.5)
+('Washington', 0.6854)
+('Air Force', 0.5703)
+('Murray St', 0.5404)
+('George Mason', 0.6394)
+('Wichita St', 0.5474)
+('Winthrop', 0.5617)
+
+Second Round
+Region 1
+('Duke', 0.5723)
+('LSU', 0.6031)
+('West Virginia', 0.6702)
+('Texas', 0.7302)
+
+Region 2
+('Memphis', 0.5933)
+('Kansas', 0.5949)
+('San Diego St', 0.5021)
+('UCLA', 0.5512)
+
+Region 3
+('Villanova', 0.5554)
+('Pacific', 0.5)
+('Florida', 0.588)
+('Georgetown', 0.5105)
+
+Region 4
+('Connecticut', 0.6678)
+('Washington', 0.5171)
+('George Mason', 0.5094)
+('Winthrop', 0.6384)
+
+Sweet 16
+Region 1
+('Duke', 0.5244)
+('Texas', 0.6104)
+
+Region 2
+('Memphis', 0.5779)
+('UCLA', 0.5294)
+
+Region 3
+('Villanova', 0.5925)
+('Florida', 0.5699)
+
+Region 4
+('Connecticut', 0.5212)
+('Winthrop', 0.5179)
+
+Elite 8
+Region 1
+('Texas', 0.6297)
+
+Region 2
+('Memphis', 0.5944)
+
+Region 3
+('Florida', 0.5038)
+
+Region 4
+('Connecticut', 0.6096)
+
+Final 4
+('Texas', 0.5842)
+('Connecticut', 0.5633)
+
+Championship
+('Texas', 0.5324)

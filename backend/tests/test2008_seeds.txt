@@ -1,0 +1,103 @@
+
+First Round
+Region 1
+('North Carolina', 0.9477)
+('Indiana', 0.525)
+('Notre Dame', 0.6636)
+('Washington St', 0.7986)
+('Louisville', 0.8896)
+('Oklahoma', 0.5912)
+('Butler', 0.6737)
+('Tennessee', 0.8646)
+
+Region 2
+('Kansas', 0.9389)
+('UNLV', 0.5497)
+('Clemson', 0.7866)
+('Vanderbilt', 0.5915)
+('Wisconsin', 0.8494)
+('USC', 0.6084)
+('Davidson', 0.5303)
+('Georgetown', 0.8374)
+
+Region 3
+('Memphis', 0.9557)
+('Mississippi St', 0.5847)
+('Michigan St', 0.7803)
+('Pittsburgh', 0.8173)
+('Stanford', 0.7901)
+('Marquette', 0.7603)
+("St Mary's CA", 0.5122)
+('Texas', 0.9147)
+
+Region 4
+('UCLA', 0.9614)
+('BYU', 0.5483)
+('Drake', 0.7011)
+('Connecticut', 0.8003)
+('Xavier', 0.8542)
+('Purdue', 0.6779)
+('West Virginia', 0.6735)
+('Duke', 0.8908)
+
+Second Round
+Region 1
+('North Carolina', 0.7499)
+('Washington St', 0.6189)
+('Louisville', 0.6443)
+('Tennessee', 0.5936)
+
+Region 2
+('Kansas', 0.8096)
+('Clemson', 0.7078)
+('Wisconsin', 0.7235)
+('Georgetown', 0.6065)
+
+Region 3
+('Memphis', 0.8176)
+('Pittsburgh', 0.527)
+('Marquette', 0.5014)
+('Texas', 0.7506)
+
+Region 4
+('UCLA', 0.8626)
+('Drake', 0.6089)
+('Xavier', 0.6583)
+('Duke', 0.6435)
+
+Sweet 16
+Region 1
+('North Carolina', 0.6094)
+('Tennessee', 0.5351)
+
+Region 2
+('Kansas', 0.7122)
+('Wisconsin', 0.5465)
+
+Region 3
+('Memphis', 0.6708)
+('Texas', 0.6292)
+
+Region 4
+('UCLA', 0.6544)
+('Duke', 0.5146)
+
+Elite 8
+Region 1
+('North Carolina', 0.5951)
+
+Region 2
+('Kansas', 0.6163)
+
+Region 3
+('Memphis', 0.5728)
+
+Region 4
+('UCLA', 0.6537)
+
+Final 4
+('Kansas', 0.603)
+('UCLA', 0.5315)
+
+Championship
+('Kansas', 0.5129)

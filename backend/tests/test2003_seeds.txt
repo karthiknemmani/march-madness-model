@@ -1,0 +1,103 @@
+
+First Round
+Region 1
+('Oklahoma', 0.913)
+('NC State', 0.5516)
+('Mississippi St', 0.7445)
+('Louisville', 0.8727)
+('Syracuse', 0.8504)
+('Oklahoma St', 0.6003)
+("St Joseph's PA", 0.5866)
+('Wake Forest', 0.8288)
+
+Region 2
+('Texas', 0.9282)
+('LSU', 0.6091)
+('Connecticut', 0.7407)
+('Stanford', 0.8757)
+('Xavier', 0.7039)
+('Maryland', 0.6782)
+('Michigan St', 0.5617)
+('Florida', 0.8869)
+
+Region 3
+('Kentucky', 0.9423)
+('Oregon', 0.5276)
+('Wisconsin', 0.8617)
+('Dayton', 0.6221)
+('Marquette', 0.7868)
+('Missouri', 0.6594)
+('Indiana', 0.5018)
+('Pittsburgh', 0.8622)
+
+Region 4
+('Arizona', 0.8864)
+('Cincinnati', 0.5708)
+('Notre Dame', 0.6716)
+('Illinois', 0.8059)
+('Duke', 0.8606)
+('Creighton', 0.8122)
+('Memphis', 0.5726)
+('Kansas', 0.8572)
+
+Second Round
+Region 1
+('Oklahoma', 0.7359)
+('Mississippi St', 0.5372)
+('Syracuse', 0.7314)
+('Wake Forest', 0.5967)
+
+Region 2
+('Texas', 0.6731)
+('Connecticut', 0.572)
+('Maryland', 0.5084)
+('Florida', 0.7248)
+
+Region 3
+('Kentucky', 0.8191)
+('Wisconsin', 0.6878)
+('Marquette', 0.6477)
+('Pittsburgh', 0.7709)
+
+Region 4
+('Arizona', 0.7501)
+('Illinois', 0.657)
+('Creighton', 0.539)
+('Kansas', 0.7562)
+
+Sweet 16
+Region 1
+('Oklahoma', 0.5471)
+('Syracuse', 0.5924)
+
+Region 2
+('Texas', 0.5765)
+('Florida', 0.5319)
+
+Region 3
+('Kentucky', 0.6028)
+('Pittsburgh', 0.5408)
+
+Region 4
+('Arizona', 0.5344)
+('Kansas', 0.5751)
+
+Elite 8
+Region 1
+('Syracuse', 0.5286)
+
+Region 2
+('Florida', 0.5039)
+
+Region 3
+('Kentucky', 0.6041)
+
+Region 4
+('Kansas', 0.5291)
+
+Final 4
+('Syracuse', 0.5438)
+('Kentucky', 0.58)
+
+Championship
+('Kentucky', 0.5918)

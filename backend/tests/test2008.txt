@@ -1,0 +1,105 @@
+Successfully initialized database in 330 ms
+Successfully initialized model in 50 ms
+
+First Round
+Region 1
+('North Carolina', 0.7825)
+('Arkansas', 0.5019)
+('George Mason', 0.5186)
+('Washington St', 0.6007)
+('Louisville', 0.7113)
+("St Joseph's PA", 0.5423)
+('Butler', 0.5991)
+('Tennessee', 0.6115)
+
+Region 2
+('Kansas', 0.7533)
+('UNLV', 0.5229)
+('Clemson', 0.6342)
+('Siena', 0.6455)
+('Wisconsin', 0.633)
+('Kansas St', 0.5245)
+('Davidson', 0.6093)
+('Georgetown', 0.5593)
+
+Region 3
+('Memphis', 0.8109)
+('Mississippi St', 0.5583)
+('Michigan St', 0.6256)
+('Pittsburgh', 0.6291)
+('Stanford', 0.5351)
+('Marquette', 0.6493)
+("St Mary's CA", 0.5919)
+('Texas', 0.7255)
+
+Region 4
+('UCLA', 0.8319)
+('BYU', 0.5215)
+('Drake', 0.5247)
+('Connecticut', 0.6032)
+('Xavier', 0.6417)
+('Purdue', 0.5512)
+('West Virginia', 0.5989)
+('Duke', 0.668)
+
+Second Round
+Region 1
+('North Carolina', 0.5839)
+('Washington St', 0.5756)
+('Louisville', 0.5258)
+('Butler', 0.5398)
+
+Region 2
+('Kansas', 0.6667)
+('Clemson', 0.5976)
+('Wisconsin', 0.6325)
+('Davidson', 0.6056)
+
+Region 3
+('Memphis', 0.6784)
+('Pittsburgh', 0.5001)
+('Marquette', 0.5814)
+('Texas', 0.5597)
+
+Region 4
+('UCLA', 0.7472)
+('Drake', 0.6342)
+('Xavier', 0.5824)
+('Duke', 0.5131)
+
+Sweet 16
+Region 1
+('North Carolina', 0.5304)
+('Butler', 0.5484)
+
+Region 2
+('Kansas', 0.6166)
+('Davidson', 0.5341)
+
+Region 3
+('Memphis', 0.596)
+('Texas', 0.5245)
+
+Region 4
+('UCLA', 0.5517)
+('Xavier', 0.5124)
+
+Elite 8
+Region 1
+('North Carolina', 0.5289)
+
+Region 2
+('Kansas', 0.5309)
+
+Region 3
+('Memphis', 0.5462)
+
+Region 4
+('UCLA', 0.6169)
+
+Final 4
+('Kansas', 0.603)
+('UCLA', 0.5315)
+
+Championship
+('Kansas', 0.5129)

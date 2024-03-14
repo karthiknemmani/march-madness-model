@@ -1,0 +1,105 @@
+Successfully initialized database in 349 ms
+Successfully initialized model in 49 ms
+
+First Round
+Region 1
+('Michigan', 0.6555)
+('St Bonaventure', 0.5377)
+('Colorado', 0.7167)
+('UNC Greensboro', 0.5208)
+('Abilene Chr', 0.666)
+('BYU', 0.6019)
+('Connecticut', 0.6974)
+('Alabama', 0.6063)
+
+Region 2
+('Gonzaga', 0.8424)
+('Oklahoma', 0.5992)
+('UC Santa Barbara', 0.5134)
+('Virginia', 0.6162)
+('Kansas', 0.54)
+('Drake', 0.6735)
+('VCU', 0.5033)
+('Iowa', 0.5738)
+
+Region 3
+('Drexel', 0.5987)
+('Loyola-Chicago', 0.6168)
+('Tennessee', 0.6332)
+('Liberty', 0.6949)
+('West Virginia', 0.5387)
+('Syracuse', 0.5461)
+('Clemson', 0.5813)
+('Houston', 0.8404)
+
+Region 4
+('Baylor', 0.7698)
+('Wisconsin', 0.5433)
+('Winthrop', 0.5424)
+('North Texas', 0.5784)
+('Colgate', 0.5342)
+('Texas Tech', 0.5285)
+('Florida', 0.5868)
+('Oral Roberts', 0.5086)
+
+Second Round
+Region 1
+('St Bonaventure', 0.5712)
+('Colorado', 0.5263)
+('Abilene Chr', 0.6555)
+('Connecticut', 0.5374)
+
+Region 2
+('Gonzaga', 0.7236)
+('Virginia', 0.658)
+('Drake', 0.6208)
+('VCU', 0.5544)
+
+Region 3
+('Loyola-Chicago', 0.5857)
+('Liberty', 0.5253)
+('Syracuse', 0.641)
+('Houston', 0.7676)
+
+Region 4
+('Baylor', 0.7129)
+('North Texas', 0.5196)
+('Colgate', 0.56)
+('Florida', 0.5917)
+
+Sweet 16
+Region 1
+('Colorado', 0.5095)
+('Abilene Chr', 0.5041)
+
+Region 2
+('Gonzaga', 0.5766)
+('Drake', 0.5736)
+
+Region 3
+('Liberty', 0.508)
+('Houston', 0.7055)
+
+Region 4
+('Baylor', 0.6676)
+('Colgate', 0.5694)
+
+Elite 8
+Region 1
+('Abilene Chr', 0.5017)
+
+Region 2
+('Gonzaga', 0.5829)
+
+Region 3
+('Houston', 0.6969)
+
+Region 4
+('Baylor', 0.5935)
+
+Final 4
+('Gonzaga', 0.6122)
+('Houston', 0.5805)
+
+Championship
+('Houston', 0.5899)

@@ -1,0 +1,105 @@
+Successfully initialized database in 339 ms
+Successfully initialized model in 40 ms
+
+First Round
+Region 1
+('Duke', 0.8162)
+('Arizona', 0.565)
+('Murray St', 0.5125)
+('Cincinnati', 0.6059)
+('Texas', 0.5888)
+('Air Force', 0.7197)
+('Xavier', 0.5049)
+('Mississippi St', 0.6597)
+
+Region 2
+('Stanford', 0.7945)
+('S Illinois', 0.665)
+('Syracuse', 0.6055)
+('UTEP', 0.5091)
+('NC State', 0.5608)
+('W Michigan', 0.5776)
+('DePaul', 0.58)
+('Connecticut', 0.6707)
+
+Region 3
+("St Joseph's PA", 0.7486)
+('Texas Tech', 0.6653)
+('Manhattan', 0.5804)
+('Wake Forest', 0.539)
+('Pittsburgh', 0.552)
+('Wisconsin', 0.5813)
+('South Carolina', 0.5948)
+('Oklahoma St', 0.7326)
+
+Region 4
+('Kentucky', 0.7535)
+('UAB', 0.6259)
+('Providence', 0.6534)
+('IL Chicago', 0.529)
+('Georgia Tech', 0.6435)
+('Utah', 0.6194)
+('Nevada', 0.6143)
+('Gonzaga', 0.7832)
+
+Second Round
+Region 1
+('Duke', 0.5839)
+('Cincinnati', 0.54)
+('Air Force', 0.5982)
+('Xavier', 0.5101)
+
+Region 2
+('S Illinois', 0.5078)
+('Syracuse', 0.6194)
+('W Michigan', 0.5495)
+('Connecticut', 0.6799)
+
+Region 3
+("St Joseph's PA", 0.6263)
+('Manhattan', 0.6268)
+('Wisconsin', 0.5063)
+('Oklahoma St', 0.5292)
+
+Region 4
+('Kentucky', 0.5459)
+('Providence', 0.5956)
+('Utah', 0.5342)
+('Gonzaga', 0.5274)
+
+Sweet 16
+Region 1
+('Duke', 0.5747)
+('Air Force', 0.6601)
+
+Region 2
+('S Illinois', 0.527)
+('Connecticut', 0.5305)
+
+Region 3
+("St Joseph's PA", 0.5975)
+('Wisconsin', 0.5436)
+
+Region 4
+('Providence', 0.5056)
+('Gonzaga', 0.5488)
+
+Elite 8
+Region 1
+('Air Force', 0.5051)
+
+Region 2
+('Connecticut', 0.5181)
+
+Region 3
+("St Joseph's PA", 0.5501)
+
+Region 4
+('Gonzaga', 0.5213)
+
+Final 4
+('Air Force', 0.5704)
+("St Joseph's PA", 0.6002)
+
+Championship
+('Air Force', 0.5084)

@@ -1,0 +1,105 @@
+Successfully initialized database in 357 ms
+Successfully initialized model in 57 ms
+
+First Round
+Region 1
+('Purdue', 0.6012)
+('FL Atlantic', 0.5343)
+('Oral Roberts', 0.585)
+('Tennessee', 0.7428)
+('Kansas St', 0.5334)
+('Kentucky', 0.5324)
+('USC', 0.5613)
+('Marquette', 0.5982)
+
+Region 2
+('Alabama', 0.7128)
+('Maryland', 0.5788)
+('Col Charleston', 0.5369)
+('Furman', 0.5002)
+('Baylor', 0.5182)
+('NC State', 0.6069)
+('Missouri', 0.6152)
+('Arizona', 0.5127)
+
+Region 3
+('Houston', 0.8115)
+('Auburn', 0.5142)
+('Miami FL', 0.5769)
+('Kent', 0.5935)
+('Xavier', 0.6212)
+('Iowa St', 0.5525)
+('Texas A&M', 0.5329)
+('Texas', 0.5649)
+
+Region 4
+('Kansas', 0.5932)
+('Arkansas', 0.5123)
+("St Mary's CA", 0.57)
+('Iona', 0.513)
+('Gonzaga', 0.6953)
+('TCU', 0.6738)
+('Northwestern', 0.5311)
+('UCLA', 0.8232)
+
+Second Round
+Region 1
+('Purdue', 0.5001)
+('Oral Roberts', 0.5125)
+('Kentucky', 0.6019)
+('Marquette', 0.5696)
+
+Region 2
+('Maryland', 0.5943)
+('Col Charleston', 0.5717)
+('NC State', 0.6108)
+('Missouri', 0.6133)
+
+Region 3
+('Houston', 0.7827)
+('Miami FL', 0.514)
+('Iowa St', 0.584)
+('Texas', 0.6089)
+
+Region 4
+('Arkansas', 0.5246)
+('Iona', 0.6095)
+('Gonzaga', 0.5208)
+('UCLA', 0.7028)
+
+Sweet 16
+Region 1
+('Oral Roberts', 0.6282)
+('Marquette', 0.5245)
+
+Region 2
+('Col Charleston', 0.5025)
+('NC State', 0.5736)
+
+Region 3
+('Houston', 0.7111)
+('Texas', 0.5548)
+
+Region 4
+('Iona', 0.6639)
+('UCLA', 0.6451)
+
+Elite 8
+Region 1
+('Oral Roberts', 0.6279)
+
+Region 2
+('NC State', 0.5503)
+
+Region 3
+('Houston', 0.7347)
+
+Region 4
+('UCLA', 0.5439)
+
+Final 4
+('Oral Roberts', 0.5664)
+('Houston', 0.6002)
+
+Championship
+('Houston', 0.6405)

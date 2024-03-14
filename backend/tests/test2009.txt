@@ -1,0 +1,105 @@
+Successfully initialized database in 332 ms
+Successfully initialized model in 50 ms
+
+First Round
+Region 1
+('Pittsburgh', 0.6522)
+('Tennessee', 0.5731)
+('Wisconsin', 0.585)
+('Portland St', 0.5576)
+('Villanova', 0.5691)
+('UCLA', 0.6539)
+('Minnesota', 0.5522)
+('Duke', 0.6963)
+
+Region 2
+('North Carolina', 0.8176)
+('LSU', 0.6046)
+('Illinois', 0.591)
+('Gonzaga', 0.6582)
+('SF Austin', 0.5387)
+('Arizona St', 0.5743)
+('Clemson', 0.6183)
+('Morgan St', 0.5282)
+
+Region 3
+('Louisville', 0.608)
+('Siena', 0.5521)
+('Arizona', 0.5536)
+('Wake Forest', 0.5673)
+('N Dakota St', 0.5064)
+('West Virginia', 0.7023)
+('Boston College', 0.5367)
+('Michigan St', 0.5576)
+
+Region 4
+('Connecticut', 0.8055)
+('BYU', 0.6557)
+('Purdue', 0.6672)
+('Washington', 0.5519)
+('Missouri', 0.5852)
+('Utah St', 0.5552)
+('Maryland', 0.5712)
+('Memphis', 0.7565)
+
+Second Round
+Region 1
+('Pittsburgh', 0.6589)
+('Wisconsin', 0.5691)
+('UCLA', 0.6844)
+('Duke', 0.5323)
+
+Region 2
+('North Carolina', 0.5708)
+('Gonzaga', 0.5874)
+('Arizona St', 0.5868)
+('Clemson', 0.6192)
+
+Region 3
+('Louisville', 0.5405)
+('Wake Forest', 0.5667)
+('West Virginia', 0.6177)
+('Boston College', 0.5476)
+
+Region 4
+('Connecticut', 0.5026)
+('Purdue', 0.5683)
+('Missouri', 0.5722)
+('Memphis', 0.659)
+
+Sweet 16
+Region 1
+('Pittsburgh', 0.6149)
+('UCLA', 0.5971)
+
+Region 2
+('Gonzaga', 0.5069)
+('Clemson', 0.5958)
+
+Region 3
+('Louisville', 0.5235)
+('West Virginia', 0.6099)
+
+Region 4
+('Connecticut', 0.5392)
+('Memphis', 0.5945)
+
+Elite 8
+Region 1
+('UCLA', 0.5329)
+
+Region 2
+('Gonzaga', 0.5244)
+
+Region 3
+('West Virginia', 0.5504)
+
+Region 4
+('Memphis', 0.6415)
+
+Final 4
+('UCLA', 0.5297)
+('Memphis', 0.5726)
+
+Championship
+('Memphis', 0.5187)

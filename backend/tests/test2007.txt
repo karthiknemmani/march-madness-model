@@ -1,0 +1,105 @@
+Successfully initialized database in 340 ms
+Successfully initialized model in 42 ms
+
+First Round
+Region 1
+('North Carolina', 0.668)
+('Michigan St', 0.5608)
+('Arkansas', 0.571)
+('Texas', 0.6605)
+('Washington St', 0.5942)
+('G Washington', 0.6376)
+('Boston College', 0.5914)
+('Georgetown', 0.6857)
+
+Region 2
+('Ohio St', 0.6928)
+('Xavier', 0.6174)
+('Long Beach St', 0.5495)
+('SUNY Albany', 0.5402)
+('Texas A&M', 0.6432)
+('Louisville', 0.6114)
+('Nevada', 0.5641)
+('Memphis', 0.7441)
+
+Region 3
+('Florida', 0.7911)
+('Purdue', 0.5079)
+('Butler', 0.5492)
+('Maryland', 0.54)
+('Oregon', 0.642)
+('Notre Dame', 0.5276)
+('Georgia Tech', 0.5415)
+('Wisconsin', 0.6116)
+
+Region 4
+('Kansas', 0.8267)
+('Villanova', 0.5611)
+('Virginia Tech', 0.5483)
+('Holy Cross', 0.5449)
+('Pittsburgh', 0.5509)
+('VCU', 0.5436)
+('Indiana', 0.6286)
+('UCLA', 0.7868)
+
+Second Round
+Region 1
+('North Carolina', 0.6092)
+('Texas', 0.5071)
+('G Washington', 0.5693)
+('Georgetown', 0.6784)
+
+Region 2
+('Ohio St', 0.6141)
+('Long Beach St', 0.545)
+('Texas A&M', 0.5901)
+('Memphis', 0.5777)
+
+Region 3
+('Florida', 0.6907)
+('Maryland', 0.5366)
+('Oregon', 0.558)
+('Georgia Tech', 0.5406)
+
+Region 4
+('Kansas', 0.6061)
+('Virginia Tech', 0.5401)
+('VCU', 0.5501)
+('UCLA', 0.5017)
+
+Sweet 16
+Region 1
+('North Carolina', 0.6344)
+('Georgetown', 0.5936)
+
+Region 2
+('Ohio St', 0.6718)
+('Memphis', 0.5282)
+
+Region 3
+('Florida', 0.6218)
+('Oregon', 0.5054)
+
+Region 4
+('Kansas', 0.6221)
+('UCLA', 0.5383)
+
+Elite 8
+Region 1
+('Georgetown', 0.5406)
+
+Region 2
+('Ohio St', 0.5352)
+
+Region 3
+('Florida', 0.5836)
+
+Region 4
+('Kansas', 0.545)
+
+Final 4
+('Georgetown', 0.5132)
+('Florida', 0.5475)
+
+Championship
+('Florida', 0.5119)

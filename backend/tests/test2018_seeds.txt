@@ -1,0 +1,103 @@
+
+First Round
+Region 1
+('Villanova', 0.9595)
+('Virginia Tech', 0.5733)
+('West Virginia', 0.7359)
+('Wichita St', 0.8054)
+('Texas Tech', 0.7924)
+('Florida', 0.6946)
+('Butler', 0.5131)
+('Purdue', 0.9279)
+
+Region 2
+('Kansas', 0.937)
+('NC State', 0.5576)
+('Clemson', 0.654)
+('Auburn', 0.7685)
+('Michigan St', 0.8711)
+('TCU', 0.6163)
+('Rhode Island', 0.7212)
+('Duke', 0.9197)
+
+Region 3
+('Virginia', 0.9599)
+('Creighton', 0.5031)
+('Kentucky', 0.5892)
+('Arizona', 0.7592)
+('Tennessee', 0.8265)
+('Miami FL', 0.6176)
+('Nevada', 0.6607)
+('Cincinnati', 0.9027)
+
+Region 4
+('Xavier', 0.8758)
+('Florida St', 0.523)
+('Ohio St', 0.7707)
+('Gonzaga', 0.7922)
+('Michigan', 0.7902)
+('Houston', 0.6623)
+('Texas A&M', 0.6846)
+('North Carolina', 0.9221)
+
+Second Round
+Region 1
+('Villanova', 0.8542)
+('West Virginia', 0.5913)
+('Texas Tech', 0.6018)
+('Purdue', 0.7559)
+
+Region 2
+('Kansas', 0.7565)
+('Auburn', 0.5729)
+('Michigan St', 0.7028)
+('Duke', 0.6988)
+
+Region 3
+('Virginia', 0.8559)
+('Arizona', 0.5829)
+('Tennessee', 0.5692)
+('Cincinnati', 0.7859)
+
+Region 4
+('Xavier', 0.6963)
+('Gonzaga', 0.6359)
+('Michigan', 0.5424)
+('North Carolina', 0.6915)
+
+Sweet 16
+Region 1
+('Villanova', 0.6712)
+('Purdue', 0.5922)
+
+Region 2
+('Kansas', 0.6429)
+('Duke', 0.5887)
+
+Region 3
+('Virginia', 0.7715)
+('Cincinnati', 0.713)
+
+Region 4
+('Gonzaga', 0.6002)
+('North Carolina', 0.5442)
+
+Elite 8
+Region 1
+('Villanova', 0.6199)
+
+Region 2
+('Duke', 0.5154)
+
+Region 3
+('Virginia', 0.5789)
+
+Region 4
+('Gonzaga', 0.541)
+
+Final 4
+('Villanova', 0.5768)
+('Virginia', 0.6876)
+
+Championship
+('Virginia', 0.5506)

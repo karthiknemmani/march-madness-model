@@ -1,0 +1,103 @@
+
+First Round
+Region 1
+('Duke', 0.9572)
+('Arizona', 0.5384)
+('Illinois', 0.669)
+('Cincinnati', 0.8021)
+('Texas', 0.824)
+('Air Force', 0.5997)
+('Xavier', 0.5849)
+('Mississippi St', 0.8872)
+
+Region 2
+('Stanford', 0.9511)
+('S Illinois', 0.6406)
+('Syracuse', 0.7654)
+('Maryland', 0.7177)
+('NC State', 0.8068)
+('Vanderbilt', 0.5562)
+('DePaul', 0.6561)
+('Connecticut', 0.892)
+
+Region 3
+("St Joseph's PA", 0.9374)
+('Texas Tech', 0.6889)
+('Florida', 0.6058)
+('Wake Forest', 0.7551)
+('Pittsburgh', 0.8012)
+('Wisconsin', 0.704)
+('South Carolina', 0.5152)
+('Oklahoma St', 0.9174)
+
+Region 4
+('Kentucky', 0.939)
+('UAB', 0.6004)
+('Providence', 0.8003)
+('Kansas', 0.7013)
+('Georgia Tech', 0.8551)
+('Boston College', 0.5129)
+('Nevada', 0.5356)
+('Gonzaga', 0.9361)
+
+Second Round
+Region 1
+('Duke', 0.7686)
+('Cincinnati', 0.5784)
+('Texas', 0.6139)
+('Mississippi St', 0.6221)
+
+Region 2
+('Stanford', 0.6964)
+('Syracuse', 0.602)
+('NC State', 0.6072)
+('Connecticut', 0.7845)
+
+Region 3
+("St Joseph's PA", 0.7808)
+('Florida', 0.5221)
+('Pittsburgh', 0.5739)
+('Oklahoma St', 0.7269)
+
+Region 4
+('Kentucky', 0.74)
+('Providence', 0.5971)
+('Georgia Tech', 0.6618)
+('Gonzaga', 0.7254)
+
+Sweet 16
+Region 1
+('Duke', 0.6512)
+('Texas', 0.5503)
+
+Region 2
+('Stanford', 0.6247)
+('Connecticut', 0.605)
+
+Region 3
+("St Joseph's PA", 0.7592)
+('Pittsburgh', 0.5109)
+
+Region 4
+('Kentucky', 0.6007)
+('Gonzaga', 0.6079)
+
+Elite 8
+Region 1
+('Duke', 0.6437)
+
+Region 2
+('Stanford', 0.5015)
+
+Region 3
+("St Joseph's PA", 0.6083)
+
+Region 4
+('Kentucky', 0.5005)
+
+Final 4
+('Duke', 0.5903)
+("St Joseph's PA", 0.6248)
+
+Championship
+('Duke', 0.5039)

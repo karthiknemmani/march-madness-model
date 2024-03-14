@@ -1,0 +1,103 @@
+
+First Round
+Region 1
+('Baylor', 0.9295)
+('North Carolina', 0.561)
+("St Mary's CA", 0.7922)
+('UCLA', 0.854)
+('Purdue', 0.8418)
+('Texas', 0.606)
+('Murray St', 0.6596)
+('Kentucky', 0.9316)
+
+Region 2
+('Gonzaga', 0.9481)
+('Boise St', 0.507)
+('Connecticut', 0.7778)
+('Arkansas', 0.6318)
+('Texas Tech', 0.854)
+('Alabama', 0.6305)
+('Michigan St', 0.5193)
+('Duke', 0.9019)
+
+Region 3
+('Kansas', 0.909)
+('San Diego St', 0.5683)
+('Iowa', 0.842)
+('Providence', 0.6233)
+('Wisconsin', 0.7406)
+('LSU', 0.7634)
+('Miami FL', 0.5151)
+('Auburn', 0.9011)
+
+Region 4
+('Arizona', 0.9122)
+('Seton Hall', 0.6319)
+('Houston', 0.753)
+('Illinois', 0.6016)
+('Tennessee', 0.8082)
+('Colorado St', 0.6581)
+('Ohio St', 0.5972)
+('Villanova', 0.8874)
+
+Second Round
+Region 1
+('Baylor', 0.8236)
+('UCLA', 0.5551)
+('Texas', 0.5072)
+('Kentucky', 0.686)
+
+Region 2
+('Gonzaga', 0.8642)
+('Connecticut', 0.5585)
+('Texas Tech', 0.6811)
+('Duke', 0.7863)
+
+Region 3
+('Kansas', 0.7392)
+('Iowa', 0.7332)
+('LSU', 0.5967)
+('Auburn', 0.7638)
+
+Region 4
+('Arizona', 0.6789)
+('Houston', 0.7225)
+('Tennessee', 0.5967)
+('Villanova', 0.7434)
+
+Sweet 16
+Region 1
+('Baylor', 0.636)
+('Kentucky', 0.7179)
+
+Region 2
+('Gonzaga', 0.7385)
+('Duke', 0.5967)
+
+Region 3
+('Kansas', 0.5221)
+('Auburn', 0.5926)
+
+Region 4
+('Houston', 0.5473)
+('Villanova', 0.6082)
+
+Elite 8
+Region 1
+('Kentucky', 0.5305)
+
+Region 2
+('Gonzaga', 0.6162)
+
+Region 3
+('Auburn', 0.5069)
+
+Region 4
+('Houston', 0.5074)
+
+Final 4
+('Gonzaga', 0.5466)
+('Houston', 0.5477)
+
+Championship
+('Gonzaga', 0.6137)
