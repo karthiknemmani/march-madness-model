@@ -116,15 +116,18 @@ class Game:
         winning_prob = team1_prob if team1_prob > team2_prob else team2_prob
         
         return self.winner, round(winning_prob, 4)
+
+    def __str__(self):
+        return f'{self.teams[0]} vs. {self.teams[1]}'
         
         
     
 
-start_time = time.time()
+# start_time = time.time()
 Model.initialize()
-end_time = time.time()
-elapsed_time = end_time - start_time
-print(f"Successfully initialized model in {int(elapsed_time * 1000)} ms")
+# end_time = time.time()
+# elapsed_time = end_time - start_time
+# print(f"Successfully initialized model in {int(elapsed_time * 1000)} ms")
 
 
 # game = Game(2023, 'Purdue', 'Virginia')
