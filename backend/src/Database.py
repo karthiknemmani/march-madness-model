@@ -11,6 +11,7 @@ class TeamDatabase:
     seeds = pd.read_csv(folder + 'MNCAATourneySeeds.csv').set_index(['Season', 'TeamID'])
     conferences = pd.read_csv(folder + 'MTeamConferences.csv')
     tourney_compact = pd.read_csv(folder + 'MNCAATourneyCompactResults.csv')
+    kenpom = pd.read_csv(folder + 'MKenpomData.csv')
     teams = pd.read_csv(folder + 'MTeams.csv')
     regular_season = None
     team_stats = None
@@ -66,7 +67,7 @@ class TeamDatabase:
         AggTeams['NumGames'] = AggTeams['Wins'] + AggTeams['Losses']
         AggTeams.reset_index(inplace=True)
         
-        AggTeams = cls.calculate_strength_metrics(AggTeams)
+        # AggTeams = cls.calculate_strength_metrics(AggTeams)
 
         return AggTeams
     
@@ -141,7 +142,7 @@ class TeamDatabase:
         ).drop(columns=['TeamID_x'])
         
         return AggTeams
-    
+        
     @classmethod
     def advanced_metrics(cls, AggTeams):
         RegSeasonStats = pd.DataFrame(index=AggTeams.index)
@@ -154,8 +155,8 @@ class TeamDatabase:
             'OppPointsPerGame': ('OppPoints', 'NumGames'),
             'PointsRatio': ('Points', 'OppPoints'),
             'OTPerGame': ('NumOT', 'NumGames'),
-            'StrengthOfSchedule': ('OppWins', 'OppGames'),
-            'StrengthOfVictory': ('OppVictoryWins', 'OppVictoryGames')
+            # 'StrengthOfSchedule': ('OppWins', 'OppGames'),
+            # 'StrengthOfVictory': ('OppVictoryWins', 'OppVictoryGames')
         }
 
         # Per game stats and percentages
@@ -198,6 +199,12 @@ class TeamDatabase:
         AggTeams = cls.setup_team_stats()
         
         AggTeams = pd.merge(AggTeams, cls.teams[['TeamID', 'TeamName']], on='TeamID', how='left')
+        
+        # add kenpom rank
+
+        AggTeams = pd.merge(AggTeams, cls.kenpom[['Season', 'Team', 'AdjEM', 'AdjO', 'AdjD', 'AdjT', 'Luck', 'AdjSOS', 'OppO', 'OppD', 'NCSOS']], left_on=['Season', 'TeamName'], right_on=['Season', 'Team'], how='left')
+
+        AggTeams.drop(columns=['Team'], inplace=True)
         AggTeams = AggTeams.set_index(['Season', 'TeamID'])
         # Standardize it for per game stats
         RegSeasonStats = cls.advanced_metrics(AggTeams)

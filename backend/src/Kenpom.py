@@ -157,4 +157,4 @@ full_df = full_df[full_df['Team'] != 'Texas Pan American']
 kenpom = full_df.copy()
 kenpom = kenpom[kenpom['Season'] != 2020]
 kenpom = kenpom.reset_index(drop=True)
-kenpom.to_csv('../data/MKenpomData.csv', index=False)
+kenpom.to_csv('../../data/MKenpomData.csv', index=False)

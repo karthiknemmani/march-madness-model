@@ -3,10 +3,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MaxAbsScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import classification_report
+from sklearn.model_selection import GridSearchCV
 from joblib import dump
 import pandas as pd
 import time
@@ -14,70 +16,100 @@ import time
 
 class Model:
     
-    X_train_scaled, X_test_scaled, y_train, y_test = None, None, None, None
-    lr = LogisticRegression(random_state=1)
-    scaler = MinMaxScaler()
+    def __init__(self, season):
+        self.X_train_scaled, self.X_test_scaled, self.y_train, self.y_test = None, None, None, None
+        
     
-    @classmethod
-    def initialize(cls):
+    # logistic_params = {
+    #     'C': [0.001, 0.01, 0.1, 1, 10, 100],  # Regularization strength
+    #     'penalty': ['l1', 'l2'],  # Norm used in the penalization
+    #     'solver': ['liblinear', 'saga'],  # Algorithm to use in the optimization problem
+    #     'max_iter': [100, 200, 500]  # Maximum number of iterations taken for the solvers to converge
+    # }
+    # random_forest_params = {
+    #     'n_estimators': [100, 200],  # Number of trees
+    #     'max_depth': [None, 10, 20],  # Maximum depth of the tree
+    #     'min_samples_split': [2, 5],  # Minimum number of samples required to split an internal node
+    #     'min_samples_leaf': [1, 4],  # Minimum number of samples required to be at a leaf node
+    #     'bootstrap': [True, False],  # Method for sampling data points
+    # }
+    
+        self.lr = LogisticRegression(C=1, max_iter=100, penalty='l1', solver='liblinear')
+        # self.lr = LogisticRegression(solver='liblinear')
+        self.nb = GaussianNB()
+        self.rf = RandomForestClassifier()
+        # self.rf = RandomForestClassifier(n_estimators=200, max_depth=20, min_samples_split=2, min_samples_leaf=1, bootstrap=True)
+        # rf_grid = GridSearchCV(rf, random_forest_params, cv=5, n_jobs=-1)
+        
+        # lr_grid = GridSearchCV(lr, logistic_params, cv=5, n_jobs=-1)
+        self.scaler = StandardScaler()
+        
+        self.season = season
+    
+    def initialize(self):
         # split and scale data
-        cls.prepare()
+        # print('preparing')
+        self.prepare()
         # fit the models
-        cls.lr.fit(cls.X_train_scaled, cls.y_train)
+        self.lr.fit(self.X_train_scaled, self.y_train)
+        self.rf.fit(self.X_train_scaled, self.y_train)
+        self.nb.fit(self.X_train_scaled, self.y_train)
         
 
-    @classmethod
-    def prepare(cls):
-        # generate model
+    def prepare(self):
         tourney_games = TeamDatabase.get_tourney_stats()
         reg_season = TeamDatabase.get_team_stats().reset_index()
-
-        # Merge tourney games with reg_season for both teams
-        # This requires reg_season to have 'Season' and 'TeamID' columns after reset_index
-        team1_stats = pd.merge(tourney_games, reg_season, left_on=['Season', 'Team1'], right_on=['Season', 'TeamID'], how='left')
-        team2_stats = pd.merge(tourney_games, reg_season, left_on=['Season', 'Team2'], right_on=['Season', 'TeamID'], how='left')
-
-        # Calculate differences between team stats, excluding non-numeric and non-relevant columns
+        
         diff_columns = [col for col in reg_season.columns if col not in ['Season', 'TeamID', 'TeamName']]
-        tourney_stats = pd.DataFrame()
 
-        for col in diff_columns:
-            tourney_stats[col] = team1_stats[col] - team2_stats[col]
+        # Optimizing the merge by reducing it to necessary columns first
+        necessary_columns = ['Season', 'TeamID'] + diff_columns
+        reg_season_reduced = reg_season[necessary_columns]
 
-        # Calculate seed difference and include game result
-        tourney_stats['Seed'] = tourney_games['Seed1'] - tourney_games['Seed2']
-        tourney_stats['Result'] = tourney_games['Result']
-    
-        # get database
-        X = tourney_stats.drop('Result', axis=1)
-        y = tourney_stats['Result']
+        # Merge tourney games with reg_season for both teams in one go if possible
+        # Assuming this cannot be further optimized without changing data structure
+        team1_stats = pd.merge(tourney_games, reg_season_reduced, left_on=['Season', 'Team1'], right_on=['Season', 'TeamID'], how='left')
+        team2_stats = pd.merge(tourney_games, reg_season_reduced, left_on=['Season', 'Team2'], right_on=['Season', 'TeamID'], how='left')
+
+        # Calculating differences in one go
+        tourney_stats = (team1_stats[diff_columns].values - team2_stats[diff_columns].values)
+        tourney_stats_df = pd.DataFrame(tourney_stats, columns=diff_columns)
+        tourney_stats_df['Seed'] = tourney_games['Seed1'] - tourney_games['Seed2']
+        tourney_stats_df['Result'] = tourney_games['Result']
+        tourney_stats_df['Season'] = tourney_games['Season']
         
-        # split data
-        X_train, X_test, cls.y_train, cls.y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+        # Exclude the current season's data for training
+        training_data = tourney_stats_df[tourney_stats_df['Season'] != self.season]
+        X = training_data.drop(['Result', 'Season'], axis=1)
+        y = training_data['Result']
         
-        # scale data
-        cls.X_train_scaled = cls.scaler.fit_transform(X_train)
-        cls.X_test_scaled = cls.scaler.transform(X_test)
+        # Split and scale
+        X_train, X_test, self.y_train, self.y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+        self.X_train_scaled = self.scaler.fit_transform(X_train)
+        self.X_test_scaled = self.scaler.transform(X_test)
+
+        
+        # print('before fit')
+        # cls.rf_grid.fit(cls.X_train_scaled, cls.y_train)
+        # print('best params: ', cls.rf_grid.best_params_)
     
-    @classmethod
-    def score(cls):
-        return cls.lr.score(cls.X_test_scaled, cls.y_test)
+    def score(self):
+        return self.lr.score(self.X_test_scaled, self.y_test), self.rf.score(self.X_test_scaled, self.y_test), self.nb.score(cls.X_test_scaled, cls.y_test)
+
+    def cross_val(self, folds):
+        return cross_val_score(self.lr, self.X_train_scaled, self.y_train, cv=folds)
     
-    @classmethod
-    def cross_val(cls, folds):
-        return cross_val_score(cls.lr, cls.X_train_scaled, cls.y_train, cv=folds)
-    
-    @classmethod
-    def classification_report(cls):
-        y_pred = cls.lr.predict(cls.X_test_scaled)
-        return classification_report(cls.y_test, y_pred)
+    def classification_report(self):
+        y_pred = self.lr.predict(self.X_test_scaled)
+        return classification_report(self.y_test, y_pred)
     
 class Game:
-    def __init__(self, season: Season, team1: str, team2: str):
+    def __init__(self, model: Model, season: Season, team1: str, team2: str):
         self.season = season
         self.teams = (team1, team2)
         self.team1 = Team(team1, self.season)
         self.team2 = Team(team2, self.season)
+        self.model = model
         self.winner = None
     
     def get_season(self): return self.season.get_season()
@@ -104,10 +136,10 @@ class Game:
         # team2_stats['Seed'] = 0
         # Scale data
         diff = pd.DataFrame(team1_stats.values - team2_stats.values, columns=team1_stats.columns.values)
-        diff_scaled = Model.scaler.transform(diff)
+        diff_scaled = self.model.scaler.transform(diff)
         
         # Predict
-        prob = Model.lr.predict_proba(diff_scaled)
+        prob = self.model.lr.predict_proba(diff_scaled)
         
         team1_prob = prob[0][1]
         team2_prob = prob[0][0]
@@ -115,7 +147,13 @@ class Game:
         self.winner = self.teams[0] if team1_prob > team2_prob else self.teams[1]
         winning_prob = team1_prob if team1_prob > team2_prob else team2_prob
         
-        return self.winner, round(winning_prob, 4)
+        if team1_prob > team2_prob:
+            upset = self.team1.get_seed() > self.team2.get_seed()
+        else:
+            upset = self.team2.get_seed() > self.team1.get_seed()
+            
+        
+        return self.winner, round(winning_prob, 4), upset
 
     def __str__(self):
         return f'{self.teams[0]} vs. {self.teams[1]}'
@@ -124,7 +162,6 @@ class Game:
     
 
 # start_time = time.time()
-Model.initialize()
 # end_time = time.time()
 # elapsed_time = end_time - start_time
 # print(f"Successfully initialized model in {int(elapsed_time * 1000)} ms")
@@ -137,7 +174,7 @@ Model.initialize()
 # print(g.predict_game())
 
 # print(Model.score(Model.rf))
-# print(Model.score(Model.lr))
+# print(Model.score())
 # print(Model.score(Model.nb))
 # print(Model.cross_val(Model.rf, 5))
 # print(Model.cross_val(Model.lr, 5))
