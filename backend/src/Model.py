@@ -98,8 +98,8 @@ class Game:
         team2_stats = self.team2.get_stats().drop(['TeamID', 'TeamName'], axis=1)
         
         # Get seeds
-        team1_stats['Seed'] = self.team1.get_seed()
-        team2_stats['Seed'] = self.team2.get_seed()
+        team1_stats['Seed'] = self.team1.get_seed() if self.season.get_season() not in {2020, 2024} else 0
+        team2_stats['Seed'] = self.team2.get_seed() if self.season.get_season() not in {2020, 2024} else 0
         # team1_stats['Seed'] = 0
         # team2_stats['Seed'] = 0
         # Scale data
